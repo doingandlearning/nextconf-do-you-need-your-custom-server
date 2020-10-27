@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "express-jwt-authz": "^2.4.1",
+    "express-session": "^1.17.1",
+    "jwks-rsa": "^1.10.1",
+    "mongoose": "^5.10.9",
+    "nodemon": "^2.0.5",
+    "passport": "^0.4.1",
+    "passport-auth0": "^1.3.3",
+    "request": "^2.88.2"
+  }
+}
